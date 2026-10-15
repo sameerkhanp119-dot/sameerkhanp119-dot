@@ -26,7 +26,7 @@ I design and ship backend platforms that have to stay correct under load: order 
 | Project | What it shows |
 |---|---|
 | [**commerce-order-platform**](https://github.com/sameerkhanp119-dot/commerce-order-platform) | Spring Boot microservices with a Kafka choreography saga, transactional outbox, idempotent APIs, Docker Compose, Kubernetes and CI |
-| *api-gateway-auth* — coming soon | Spring Cloud Gateway, OAuth2/JWT, rate limiting, circuit breakers |
+| [**api-gateway-auth**](https://github.com/sameerkhanp119-dot/api-gateway-auth) | OAuth2 authorization server + Spring Cloud Gateway: JWT scopes, per-client Redis rate limiting, circuit breakers, correlation ids |
 | *realtime-event-analytics* — coming soon | Kafka → stream processing → BigQuery, orchestrated with Airflow |
 | *cloud-platform-terraform* — coming soon | Terraform modules for EKS/GKE with a GitOps deploy pipeline |
 
