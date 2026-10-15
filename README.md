@@ -12,14 +12,17 @@ Distributed systems · Event-driven microservices · Cloud-native delivery on AW
 
 ### What I build
 
-I design and ship backend platforms that have to stay correct under load: order and payment flows, event streaming, secure APIs, and the pipelines that deploy them. I care about idempotency, observability, and making systems that the next engineer can understand.
+I design and ship backend platforms that have to stay correct under load: order and payment flows, event streaming, secure APIs, data pipelines, and the cloud infrastructure that runs them. I care about idempotency, observability, and making systems that the next engineer can understand.
 
-- **Backend:** Java 17/21, Spring Boot 3, Spring Cloud, Hibernate/JPA, REST, GraphQL
-- **Messaging & streaming:** Apache Kafka, RabbitMQ, Saga & Outbox patterns
-- **Cloud & platform:** AWS (EKS, ECS, Lambda, RDS), Azure (AKS, App Service), GCP (GKE, BigQuery), Terraform, Docker, Kubernetes
-- **Data:** PostgreSQL, Oracle, SQL Server, MongoDB, Redis, DynamoDB
-- **Frontend:** Angular, React, TypeScript
-- **Quality & ops:** JUnit 5, Mockito, Testcontainers, GitHub Actions, Jenkins, Prometheus, Grafana, ELK
+- **Languages:** Java 8–21, SQL & PL/SQL, Python, JavaScript, TypeScript
+- **Backend:** Spring Boot, Spring MVC, Spring Data JPA, Spring Security, Spring Cloud, Hibernate, Helidon, REST, GraphQL, SOAP
+- **Security:** OAuth2, JWT, SAML, API gateways, Resilience4j circuit breakers
+- **Messaging & streaming:** Apache Kafka, RabbitMQ, IBM MQ, ActiveMQ, Saga & Outbox patterns, Spark Structured Streaming
+- **Cloud:** AWS (EKS, ECS, Lambda, RDS, S3), Azure (AKS, App Service, Functions), GCP (GKE, BigQuery, Pub/Sub, Cloud Run)
+- **Platform:** Docker, Kubernetes, OpenShift, Helm, Istio, Terraform, Ansible, Argo CD
+- **Data:** Oracle, SQL Server, PostgreSQL, MySQL, MongoDB, Cassandra, DynamoDB, Redis, Airflow
+- **Frontend:** Angular, React, TypeScript, Redux, NgRx, RxJS, Material UI
+- **Quality & ops:** JUnit, Mockito, Selenium, Cypress, JMeter, SonarQube, Jenkins, GitHub Actions, GitLab CI, Prometheus, Grafana, ELK, Splunk
 
 ### Featured projects
 
