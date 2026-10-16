@@ -1,56 +1,57 @@
-<h1 align="center">Sameer Khan Pathan</h1>
-<p align="center"><b>Senior Java Full Stack &amp; Cloud Engineer</b><br/>
-Distributed systems · Event-driven microservices · Cloud-native delivery on AWS, Azure &amp; GCP</p>
+# Sameer Khan Pathan
+### Senior Java Full Stack Engineer | 10+ Years in Enterprise Software Engineering
 
-<p align="center">
-  <a href="https://sameerkhanpathan.com"><img src="https://img.shields.io/badge/Portfolio-sameerkhanpathan.com-0A66C2?style=flat-square&logo=googlechrome&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/sameer-khan-pathan-2597b2362"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:sameerkhanp804@gmail.com"><img src="https://img.shields.io/badge/Email-sameerkhanp804%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white"/></a>
-</p>
+**Java · Spring Boot · Microservices · Angular · React · Kafka · AWS · Azure · GCP**
+
+[Portfolio](https://sameerkhanpathan.com) · [LinkedIn](https://www.linkedin.com/in/sameer-khan-pathan-2597b2362) · [Email](mailto:sameerkhanp804@gmail.com)
+
+## Engineering profile
+
+Senior Java Full Stack Engineer with **10+ years of experience** building enterprise applications across **retail, payments, healthcare, travel and SaaS**. My work spans the full software delivery lifecycle—from API and domain modeling to frontend delivery, event-driven integration, cloud deployment, testing, observability and production support.
+
+I focus on **maintainable system design, transactional correctness, secure APIs, performance and operational reliability**. I work across Java/Spring backends and modern Angular/React frontends, with hands-on experience delivering cloud-native applications on AWS, Azure and GCP.
+
+## Professional experience
+
+| Period | Role | Organization | Core technologies |
+|---|---|---|---|
+| Aug 2024 – Present | Senior Full Stack Developer | Target | Java 17, Spring Boot, Angular 16, Kafka, AWS |
+| Oct 2022 – Jul 2024 | Senior Full Stack Developer | Visa | Java, Spring Boot, React, TypeScript, Azure, RabbitMQ |
+| Dec 2020 – Sep 2022 | Java Full Stack Developer | Cigna | Java, Spring Boot, Angular, GCP |
+| Jan 2018 – Nov 2020 | Java Full Stack Developer | United Airlines | Java, Spring Boot, Angular, AWS |
+| Dec 2015 – Nov 2017 | Software Developer | Zoho | Java, Spring MVC, Hibernate, JSP/Servlets |
+
+*Professional experience is summarized from my resume. The public repositories below are independently authored portfolio demonstrations, not employer source code.*
+
+## Technical strengths
+
+| Area | Technologies and practices |
+|---|---|
+| Backend engineering | Java 8–21, Spring Boot, Spring MVC, Spring Security, Spring Data JPA, Hibernate, REST, GraphQL |
+| Frontend engineering | Angular, React, TypeScript, JavaScript, HTML/CSS, RxJS, Redux |
+| Distributed systems | Kafka, RabbitMQ, asynchronous messaging, saga/outbox patterns, idempotency, resilient APIs |
+| Cloud and platform | AWS, Azure, GCP, Docker, Kubernetes, Terraform, GitHub Actions, Jenkins |
+| Data and persistence | PostgreSQL, Oracle, MySQL, SQL Server, MongoDB, DynamoDB, Redis |
+| Engineering quality | JUnit, Mockito, integration testing, CI/CD, observability, security, performance tuning |
+
+## Architecture-focused portfolio projects
+
+These are **independent reference implementations** illustrating engineering approaches, not claims about production systems operated by my employers.
+
+### [Commerce Order Platform](https://github.com/sameerkhanp119-dot/commerce-order-platform)
+Java 21 / Spring Boot microservices with Kafka-based order and payment coordination. Demonstrates transactional outbox, saga compensation, request idempotency, PostgreSQL, Redis, and container-based development.
+
+### [API Gateway & Authentication](https://github.com/sameerkhanp119-dot/api-gateway-auth)
+Spring Cloud Gateway and OAuth2 authorization patterns: JWT validation, scope-based access control, rate limiting, correlation IDs and resilience policies.
+
+### [Real-Time Event Analytics](https://github.com/sameerkhanp119-dot/realtime-event-analytics)
+Event ingestion and analytics reference architecture using Kafka, Spark Structured Streaming, Airflow, BigQuery and Terraform, with attention to duplicate handling and data quality.
+
+### [Cloud Platform Terraform](https://github.com/sameerkhanp119-dot/cloud-platform-terraform)
+Reusable Terraform configurations for Google Cloud networking, GKE, Artifact Registry, workload identity and environment-specific infrastructure. Deployment readiness should be evaluated through validation and security checks.
 
 ---
 
-### What I build
+**Open to conversations about senior Java full-stack, backend engineering and cloud-native software roles.**
 
-I design and ship backend platforms that have to stay correct under load: order and payment flows, event streaming, secure APIs, data pipelines, and the cloud infrastructure that runs them. I care about idempotency, observability, and making systems that the next engineer can understand.
-
-- **Languages:** Java 8–21, SQL & PL/SQL, Python, JavaScript, TypeScript
-- **Backend:** Spring Boot, Spring MVC, Spring Data JPA, Spring Security, Spring Cloud, Hibernate, Helidon, REST, GraphQL, SOAP
-- **Security:** OAuth2, JWT, SAML, API gateways, Resilience4j circuit breakers
-- **Messaging & streaming:** Apache Kafka, RabbitMQ, IBM MQ, ActiveMQ, Saga & Outbox patterns, Spark Structured Streaming
-- **Cloud:** AWS (EKS, ECS, Lambda, RDS, S3), Azure (AKS, App Service, Functions), GCP (GKE, BigQuery, Pub/Sub, Cloud Run)
-- **Platform:** Docker, Kubernetes, OpenShift, Helm, Istio, Terraform, Ansible, Argo CD
-- **Data:** Oracle, SQL Server, PostgreSQL, MySQL, MongoDB, Cassandra, DynamoDB, Redis, Airflow
-- **Frontend:** Angular, React, TypeScript, Redux, NgRx, RxJS, Material UI
-- **Quality & ops:** JUnit, Mockito, Selenium, Cypress, JMeter, SonarQube, Jenkins, GitHub Actions, GitLab CI, Prometheus, Grafana, ELK, Splunk
-
-### Featured projects
-
-| Project | What it shows |
-|---|---|
-| [**commerce-order-platform**](https://github.com/sameerkhanp119-dot/commerce-order-platform) | Spring Boot microservices with a Kafka choreography saga, transactional outbox, idempotent APIs, Docker Compose, Kubernetes and CI |
-| [**api-gateway-auth**](https://github.com/sameerkhanp119-dot/api-gateway-auth) | OAuth2 authorization server + Spring Cloud Gateway: JWT scopes, per-client Redis rate limiting, circuit breakers, correlation ids |
-| [**realtime-event-analytics**](https://github.com/sameerkhanp119-dot/realtime-event-analytics) | Kafka → Spark Structured Streaming → BigQuery, with an Airflow daily rollup, data-quality gates and Terraform on GCP |
-| [**cloud-platform-terraform**](https://github.com/sameerkhanp119-dot/cloud-platform-terraform) | Terraform modules for a private GKE platform: VPC + NAT, Workload Identity, Artifact Registry, dev/prod environments, Argo CD GitOps, tflint + checkov in CI |
-
-### Tech
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-
-### GitHub stats
-
-<p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=sameerkhanp119-dot&show_icons=true&hide_border=true&theme=default"/>
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sameerkhanp119-dot&layout=compact&hide_border=true"/>
-</p>
+[Explore the portfolio →](https://sameerkhanpathan.com)
