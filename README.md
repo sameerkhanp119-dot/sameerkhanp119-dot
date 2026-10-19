@@ -23,6 +23,14 @@ I focus on **maintainable system design, transactional correctness, secure APIs,
 
 *Professional experience is summarized from my resume. The public repositories below are independently authored portfolio demonstrations, not employer source code.*
 
+## Reviewing this portfolio
+
+My professional timeline is listed above; these public projects are a separate body of demonstration work. Repository and account dates describe this public GitHub activity, not the start of my career.
+
+For a technical review, start with the [commerce order platform](https://github.com/sameerkhanp119-dot/commerce-order-platform): follow the order/payment flow, examine the outbox and retry behavior, and run the documented tests. The [gateway](https://github.com/sameerkhanp119-dot/api-gateway-auth), [analytics](https://github.com/sameerkhanp119-dot/realtime-event-analytics), and [infrastructure](https://github.com/sameerkhanp119-dot/cloud-platform-terraform) projects explore adjacent concerns.
+
+Architecture descriptions explain intended behavior. CI results, reproducible tests and deployment evidence should be evaluated separately; these projects do not establish production usage, measured scale or employer endorsement.
+
 ## Technical strengths
 
 | Area | Technologies and practices |
