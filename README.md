@@ -46,6 +46,12 @@ Architecture descriptions explain intended behavior. CI results, reproducible te
 
 These are **independent reference implementations** illustrating engineering approaches, not claims about production systems operated by my employers.
 
+### [Signal Desk · Incident Operations](https://github.com/sameerkhanp119-dot/incident-operations-dashboard)
+React and Spring Boot workbench with incident filtering, lifecycle changes, audit history and optimistic concurrency. Server-side authorization and CSRF protection are implemented in the separate local API. [Try the browser demo](https://sameerkhanpathan.com/demos/incident-operations/) · [Architecture](https://github.com/sameerkhanp119-dot/incident-operations-dashboard/blob/main/docs/architecture.md)
+
+### [Java Modernization Playbook](https://github.com/sameerkhanp119-dot/java-modernization-playbook)
+An executable read-only strangler migration: legacy characterization, decimal pricing compatibility, shadow comparison, stable canary routing and rollback. Includes injected-failure tests and a seeded 10,000-request compatibility check. [Explore the browser lab](https://sameerkhanpathan.com/demos/modernization/) · [Migration plan](https://github.com/sameerkhanp119-dot/java-modernization-playbook/blob/main/docs/migration-plan.md)
+
 ### [Commerce Order Platform](https://github.com/sameerkhanp119-dot/commerce-order-platform)
 Java 21 / Spring Boot microservices with Kafka-based order and payment coordination. Demonstrates transactional outbox, saga compensation, request idempotency, PostgreSQL, Redis, and container-based development.
 
